@@ -1,0 +1,49 @@
+body{
+	text-align: center;
+	background: cornflowerblue;
+}
+
+.outer-class{
+  margin: auto;
+  padding: 10% 0 0;
+  max-width: 360px;
+}
+
+.form-class{
+  padding: 45px;
+  text-align: center;
+  border-radius: 3px;
+  margin: 0 auto 100px;
+  background: #FFFFFF;
+}
+
+.form-class h2{
+  margin-block-start: auto;
+	font-family: "Roboto", sans-serif;
+}
+
+form input {
+  border: 0;
+  width: 100%;
+  padding: 10px;
+  display: block;
+  font-size: 15px;
+  border-radius: 3px;
+  background: #f2f2f2;
+  box-sizing: border-box;
+}
+
+form button {
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #2e8be8;
+}
+
+form button:hover,form button:active,form button:focus {
+  background: #3399ff;
+}
